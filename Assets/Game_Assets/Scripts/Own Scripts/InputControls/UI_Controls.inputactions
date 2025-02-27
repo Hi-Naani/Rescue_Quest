@@ -1,0 +1,46 @@
+{
+    "name": "UI_Controls",
+    "maps": [
+        {
+            "name": "UI_Input",
+            "id": "73380ad4-04f1-431f-be73-97c96e8ea95e",
+            "actions": [
+                {
+                    "name": "EscapeforPause",
+                    "type": "Button",
+                    "id": "27a784f8-6f73-4a22-9207-4014937f65b3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aea00041-ac72-4369-9a4d-2e69eac4c38e",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard",
+                    "action": "EscapeforPause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyBoard",
+            "bindingGroup": "KeyBoard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
